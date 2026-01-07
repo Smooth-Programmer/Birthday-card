@@ -3,15 +3,10 @@ import type { PhotoCollageProps, Photo } from "../types/birthday"
 export default function PhotoCollage({ photos }: Readonly<PhotoCollageProps>) {
   // Default photos - replace with your actual photos
   const defaultPhotos: Photo[] = [
-    { id: 1, src: "https://media.gq.com.mx/photos/682ac646de0430178b75e8a0/16:9/w_2560%2Cc_limit/NBA_Finales_de_Conferencia_2199173018.jpg?height=200&width=200", alt: "Memory 1" },
-    { id: 2, src: "https://media.gq.com.mx/photos/682ac646de0430178b75e8a0/16:9/w_2560%2Cc_limit/NBA_Finales_de_Conferencia_2199173018.jpg?height=200&width=200", alt: "Memory 2" },
-    { id: 3, src: "https://media.gq.com.mx/photos/682ac646de0430178b75e8a0/16:9/w_2560%2Cc_limit/NBA_Finales_de_Conferencia_2199173018.jpg?height=200&width=200", alt: "Memory 3" },
-    { id: 4, src: "https://media.gq.com.mx/photos/682ac646de0430178b75e8a0/16:9/w_2560%2Cc_limit/NBA_Finales_de_Conferencia_2199173018.jpg?height=200&width=200", alt: "Memory 4" },
-    { id: 5, src: "https://media.gq.com.mx/photos/682ac646de0430178b75e8a0/16:9/w_2560%2Cc_limit/NBA_Finales_de_Conferencia_2199173018.jpg?height=200&width=200", alt: "Memory 5" },
-    { id: 6, src: "https://media.gq.com.mx/photos/682ac646de0430178b75e8a0/16:9/w_2560%2Cc_limit/NBA_Finales_de_Conferencia_2199173018.jpg?height=200&width=200", alt: "Memory 6" },
-    { id: 7, src: "https://media.gq.com.mx/photos/682ac646de0430178b75e8a0/16:9/w_2560%2Cc_limit/NBA_Finales_de_Conferencia_2199173018.jpg?height=200&width=200", alt: "Memory 7" },
-    { id: 8, src: "https://media.gq.com.mx/photos/682ac646de0430178b75e8a0/16:9/w_2560%2Cc_limit/NBA_Finales_de_Conferencia_2199173018.jpg?height=200&width=200", alt: "Memory 8" },
-  ]
+  { id: 1, src: "/images/sneha.jpeg", alt: "Goa Trip 🌴" },
+  { id: 2, src: "/images/sneha.jpeg", alt: "Birthday Night 🎂" },
+];
+
 
   const photosToDisplay = photos || defaultPhotos
 
@@ -24,7 +19,7 @@ export default function PhotoCollage({ photos }: Readonly<PhotoCollageProps>) {
         ))}
       </div>
       <p className="text-center text-white/80 text-sm mt-4">
-        💡 Tip: Replace the placeholder images with your actual photos!
+        💡 Jaskaran & Sneha - 1st met on 21 Dec!
       </p>
     </div>
   )

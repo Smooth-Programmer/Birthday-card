@@ -9,14 +9,14 @@ interface LetterProps {
 export default function Letter({ content }: Readonly<LetterProps>) {
   // Default letter content - customize this for your dad
   const defaultContent: LetterContent = {
-    title: "Happy Birthday Dad! 🎉",
-    message: `Dear Dad,
+    title: "Happy Birthday Sneha! 🎉",
+    message: `Dear Sneha,
 
-On this special day, I wanted to create something unique just for you. Thank you for being the most amazing father anyone could ask for.
+On this special day, I wanted to create something unique just for you. Thank you for being the most amazing friend anyone could ask for.
 
-Your love, guidance, and support have shaped me into who I am today. Every lesson you taught me, every moment we shared, and every sacrifice you made - I remember them all with gratitude.
+Your love and care have given me a light of new lovable friendship. You don’t even try, and yet… here I am thinking about you.
 
-You've always been my hero, my role model, and my biggest supporter. Today, I celebrate not just your birthday, but the incredible person you are.
+Some people make the world brighter just by existing. You’re one of them. I like the way you exist. It suits you.
 
 I hope this little surprise brings a smile to your face and shows you how much you mean to me.
 
@@ -24,7 +24,7 @@ With all my love and best wishes for the year ahead!
 
 Happy Birthday! 🎂❤️
 
-Your loving child`,
+By Jaskaran Singh`,
   }
 
   const letterContent = content || defaultContent

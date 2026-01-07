@@ -20,7 +20,7 @@ export default function InteractiveGift({ giftOpened, showLetter, onGiftClick }:
 function GiftBox({ onGiftClick }: Readonly<{ onGiftClick: () => void }>) {
   return (
     <div className="text-center space-y-6">
-      <h1 className="text-4xl md:text-6xl font-bold text-white animate-pulse">🎂 Happy Birthday Dad! 🎂</h1>
+      <h1 className="text-4xl md:text-6xl font-bold text-white animate-pulse">🎂 Happy Birthday Sneha! 🎂</h1>
       <p className="text-xl text-white/90">Click the gift to open your surprise!</p>
       <Button
         onClick={onGiftClick}
